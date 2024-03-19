@@ -1,0 +1,117 @@
+/* Styles for the task list container */
+.task-list {
+    gap: 25px; 
+    width: 50%; 
+    max-width: 600px; 
+    min-height: 75vh; 
+    overflow-y: auto; 
+    display: flex; 
+    flex-direction: column; 
+    align-items: flex-start; 
+}
+
+/* Styles for the text within the task list */
+.task-list-text {
+    color: black; 
+    font-size: 30px; 
+    font-weight: 400; 
+    letter-spacing: 2px; 
+    word-spacing: normal; 
+    text-transform: capitalize; 
+    text-decoration: underline; 
+}
+
+/* Styles for the container inside the task list */
+.task-list-container {
+    gap: 20px; 
+    width: 100%; 
+    display: flex;
+    flex-direction: column; 
+}
+
+/* Styles for the content inside the task list */
+.task-list-inside {
+    gap: 20px; 
+    display: flex; 
+    flex-direction: column; 
+}
+
+/* Styles for general content */
+.content {
+    gap: 5px;
+    display: flex;
+    flex-direction: column; 
+}
+
+/* Styles for text */
+.text {
+    color: black;
+    font-size: 24px; 
+    font-weight: 400; 
+    letter-spacing: 1px; 
+    word-spacing: normal; 
+    text-transform: capitalize; 
+}
+
+/* Styles for subtext */
+.subtext {
+    color: black; 
+    font-size: 18px; 
+    font-weight: normal; 
+    word-spacing: normal; 
+    letter-spacing: normal; 
+    text-align: justify;
+    text-transform: capitalize; 
+}
+
+/* Styles for buttons */
+.btn {
+    gap: 10px; 
+    width: 60%; 
+    display: flex; 
+}
+
+/* Styles for edit and delete buttons */
+.edit-btn,
+.delete-btn {
+    width: 45%; 
+    height: auto; 
+    padding: 10px 15px; 
+    font-size: 18px; 
+    font-weight: normal;
+    word-spacing: normal; 
+    letter-spacing: normal; 
+    border: none; 
+    cursor: pointer; 
+    border-radius: 2px; 
+    color: white; 
+    background-color: black; 
+    transition: all 0.3s ease-in-out; 
+}
+
+/* Hover styles for buttons */
+.edit-btn:hover,
+.delete-btn:hover {
+    color: black;
+    background-color: #B1AEAE; 
+}
+
+/* Styles for subtext within the task list */
+.task-list-subtext {
+    color: black; 
+    font-size: 18px; 
+    font-weight: normal; 
+    word-spacing: normal; 
+    letter-spacing: normal; 
+}
+
+/* Media queries for responsiveness */
+@media screen and (max-width: 768px) {
+    /* Styles for tablet screens */
+
+}
+
+@media screen and (max-width: 480px) {
+    /* Styles for mobile screens */
+
+}

@@ -1,0 +1,20 @@
+/* Styles for the home container */
+.home-container {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: whitesmoke;
+}
+
+/* Media queries for responsiveness */
+@media screen and (max-width: 768px) {
+    /* For tablet screens */
+
+}
+
+@media screen and (max-width: 480px) {
+    /* For mobile screens */
+    
+}
