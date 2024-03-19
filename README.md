@@ -20,7 +20,7 @@ This project is a simple to-do app - named - 'StoreYourTask' for managing daily 
 To run this application locally, follow these steps:
 
 1. Clone this repository to your local machine using the following command:
-   Please, find the <repository-url> & <project-directory> in the github.
+   Please, find the repository-url & project-directory in the github.
 
 ```
 git clone <repository-url>
