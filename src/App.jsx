@@ -15,5 +15,5 @@ const App = () => {
   );
 };
 
-// Exporting the App component to make it available for other modules
+// Exporting the App component
 export default App;

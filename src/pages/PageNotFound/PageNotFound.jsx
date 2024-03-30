@@ -3,10 +3,10 @@ import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 
 // Importing styles
-import '../styles/Error.css';
+import './PageNotFound.css';
 
-// Error component handles 404 errors and redirects to the home page
-const Error = () => {
+// Page Not Found component handles 404 and redirects to the home page
+const PageNotFound = () => {
   
   // State to track remaining seconds before redirection
   const [secondsRemaining, setSecondsRemaining] = useState(10);
@@ -41,7 +41,7 @@ const Error = () => {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [secondsRemaining]);
 
-  // Rendering JSX for the error page
+  // Rendering JSX for the Page Not Found component
   return (
     <>
       <div className='error-container'>
@@ -56,5 +56,5 @@ const Error = () => {
   );
 };
 
-// Exporting the Error component to make it available for other modules
-export default Error;
+// Exporting the Page Not Found component
+export default PageNotFound;

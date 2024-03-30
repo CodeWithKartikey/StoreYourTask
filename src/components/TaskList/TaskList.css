@@ -1,4 +1,4 @@
-/* Styles for the task list container */
+/* Styles for the task list section */
 .task-list {
     gap: 25px; 
     width: 50%; 
@@ -10,7 +10,6 @@
     align-items: flex-start; 
 }
 
-/* Styles for the text within the task list */
 .task-list-text {
     color: black; 
     font-size: 30px; 
@@ -21,7 +20,6 @@
     text-decoration: underline; 
 }
 
-/* Styles for the container inside the task list */
 .task-list-container {
     gap: 20px; 
     width: 100%; 
@@ -29,21 +27,18 @@
     flex-direction: column; 
 }
 
-/* Styles for the content inside the task list */
 .task-list-inside {
     gap: 20px; 
     display: flex; 
     flex-direction: column; 
 }
 
-/* Styles for general content */
 .content {
     gap: 5px;
     display: flex;
     flex-direction: column; 
 }
 
-/* Styles for text */
 .text {
     color: black;
     font-size: 24px; 
@@ -53,7 +48,6 @@
     text-transform: capitalize; 
 }
 
-/* Styles for subtext */
 .subtext {
     color: black; 
     font-size: 18px; 
@@ -64,14 +58,12 @@
     text-transform: capitalize; 
 }
 
-/* Styles for buttons */
 .btn {
     gap: 10px; 
     width: 60%; 
     display: flex; 
 }
 
-/* Styles for edit and delete buttons */
 .edit-btn,
 .delete-btn {
     width: 45%; 
@@ -89,14 +81,12 @@
     transition: all 0.3s ease-in-out; 
 }
 
-/* Hover styles for buttons */
 .edit-btn:hover,
 .delete-btn:hover {
     color: black;
     background-color: #B1AEAE; 
 }
 
-/* Styles for subtext within the task list */
 .task-list-subtext {
     color: black; 
     font-size: 18px; 

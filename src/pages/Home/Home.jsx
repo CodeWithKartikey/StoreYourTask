@@ -2,14 +2,14 @@
 import React from 'react';
 
 // Component for adding a new task
-import AddTaskForm from '../components/AddTaskForm/AddTaskForm.jsx'; 
+import AddTaskForm from '../../components/AddTaskForm/AddTaskForm.jsx'; 
 // Component for displaying task list
-import TaskList from '../components/TaskList/TaskList.jsx'; 
+import TaskList from '../../components/TaskList/TaskList.jsx'; 
 
 // Importing styles
-import '../styles/Home.css';
+import './Home.css';
 
-// Functional component representing the home page
+// Functional component representing the home
 const Home = () => {
   return (
     <>

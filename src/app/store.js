@@ -3,9 +3,6 @@
 // Importing configureStore function from Redux Toolkit
 import { configureStore } from "@reduxjs/toolkit"; 
 
-// Importing combineReducers function from Redux
-import { combineReducers } from 'redux'; 
-
 // Importing taskReducer from taskSlice.js file
 import taskReducer from "../features/taskSlice.js";  
 

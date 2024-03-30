@@ -1,6 +1,6 @@
 /* 
-   Resetting default margin, padding, and box-sizing for all elements
-   Setting default font family for better consistency across different platforms
+  Resetting default margin, padding, and box-sizing for all elements
+  Setting default font family for better consistency across different platforms
 */
 * {
   margin: 0;
@@ -10,14 +10,15 @@
 }
 
 /* 
- Smooth scroll behavior for the entire document
+  overflow-x & Smooth scroll behavior for the entire document
 */
 html {
+  overflow-x: hidden;
   scroll-behavior: smooth; 
 }
 
 /* 
- Resetting margin and padding for specific HTML elements
+  Resetting margin and padding for specific HTML elements
 */
 html, body, div, span, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, code, em, img, small, strong, sub, sup, b, i, u, strike, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
   margin: 0;
@@ -25,7 +26,7 @@ html, body, div, span, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, code, em, 
 }
 
 /* 
- Resetting margin and padding for semantic elements
+  Resetting margin and padding for semantic elements
 */
 article, section, header {
   margin: 0;
@@ -33,14 +34,14 @@ article, section, header {
 }
 
 /* 
- Removing default list styles from unordered and ordered lists
+  Removing default list styles from unordered and ordered lists
 */
 ul, ol {
   list-style: none;
 }
 
 /* 
- Removing default text decoration from anchor elements
+  Removing default text decoration from anchor elements
 */
 a {
   text-decoration: none;
